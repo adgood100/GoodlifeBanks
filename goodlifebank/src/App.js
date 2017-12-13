@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
-// import Accounts from "./pages/Accounts";
+import Account from "./pages/Account";
 // import Application from "./pages/Application";
 // import Learningoverview from "./pages/Learningoverview";
 // import Learningstory from "./pages/Learningoverview/Learningstory";
@@ -19,6 +19,7 @@ const App = () =>
 
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
+        <Route exact path="/account" component={Account} />
 
       <Footer />
     </div>

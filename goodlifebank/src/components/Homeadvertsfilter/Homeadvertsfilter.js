@@ -1,6 +1,6 @@
 import React from "react";
 
-const Homeadvertsfilter = () =>(
+const Homeadvertsfilter = () =>
 
 	<div id="home-adverts-filter">
 		<form className="form-inline">
@@ -61,6 +61,6 @@ const Homeadvertsfilter = () =>(
 			</select>
 			<button type="submit" className="btn btn-orange">Go</button>
 		</form>
-	</div>);
+	</div>;
 
 export default Homeadvertsfilter;

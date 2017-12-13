@@ -4,3 +4,14 @@ Home.js - Standard Home page - adg
 Learningoverview.js - Summary of Blogs - rjk
 Learningstory.js - Individual Blog Story - rjk
 Products.js - adg
+
+Jan 6th 2018 - Deliverable 1 
+
+Jan 9th 2018 - Deliverable 2 
+
+Jan 11th 2018 - Deliverable 3
+
+
+ 
+
+Jan 13th 2018 - Final Projects

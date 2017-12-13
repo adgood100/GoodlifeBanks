@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () =>
-//	<!-- BGN Site Navigation -->
+
 	<nav id="navbar-holder">
 		<div id="navbar-inner">
 			<div id="navbar-upper" className="navbar-section">
@@ -31,8 +32,10 @@ const Navbar = () =>
 						</div>
 						<div id="navbar-upper-login" className="section-inline-block">
 							<div className="navbar-item" id="navbar-upper-button">
-								<a href="" className="navbar-link">
-									Sign In &nbsp; <i className="fa fa-lock" aria-hidden="true"></i>
+								<a>
+									<Link className="navbar-link" to="/account">
+									Log In &nbsp; <i className="fas fa-lock" aria-hidden="true"></i>
+									</Link>
 								</a>
 							</div>
 						</div>
@@ -45,29 +48,41 @@ const Navbar = () =>
 						<div id="navbar-lower-brand" className="section-inline-block">
 							<div className="navbar-item" id="navbar-lower-logo">
 								<div className="img-holder">
-									<a href="/index.html"><img className="img-item" src="../../static/images/innovate-logo.png"/></a>
+									<a>
+									<Link className="img-item" to="/home">
+									<img className="img-item" src="../../assets/images/innovate-logo.png"/>
+									</Link>
+									</a>
 								</div>
 							</div>
 						</div>
 						<div id="navbar-lower-links" className="section-inline-block">
 							<div className="navbar-item" id="navbar-lower-banking">
-								<a href="" className="navbar-link">
+								<a>
+									<Link className="navbar-link" to="/products">
 									Banking
+									</Link>
 								</a>
 							</div>
 							<div className="navbar-item" id="navbar-lower-credit-card">
-								<a href="" className="navbar-link">
+								<a>
+									<Link className="navbar-link" to="/products">
 									Credit Card
+									</Link>
 								</a>
 							</div>
 							<div className="navbar-item" id="navbar-lower-loans">
-								<a href="" className="navbar-link">
+								<a>
+									<Link className="navbar-link" to="/products">
 									Loans
+									</Link>
 								</a>
 							</div>
 							<div className="navbar-item" id="navbar-lower-learning">
-								<a href="" className="navbar-link">
+								<a>
+									<Link className="navbar-link" to="/learningoverview">
 									Learning
+									</Link>
 								</a>
 							</div>
 						</div>
@@ -85,7 +100,11 @@ const Navbar = () =>
 		</div>
 		<div id="navbar-mobile-brand">
 			<div className="img-holder">
-				<a href="/index.html"><img className="img-item" src="../../static/images/innovate-logo.png"/></a>
+				<a>
+				<Link className="img-item" to="/home">
+					<img className="img-item" src="../../assets/images/innovate-logo.png"/>
+				</Link>
+				</a>
 			</div>
 		</div>
 		<div id="navbar-toggler">

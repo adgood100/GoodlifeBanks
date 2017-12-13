@@ -5,10 +5,13 @@ import Homeadvertitem1 from "../components/Homeadvertitem1";
 import Homeadvertitem2 from "../components/Homeadvertitem2";
 import Homeadvertitem3 from "../components/Homeadvertitem3";
 import Homeadvertitem4 from "../components/Homeadvertitem4";
-
-//import Container from "../components/Container";
-//import Row from "../components/Row";
-//import Col from "../components/Col";
+import Iconteaserholder1 from "../components/Iconteaserholder1";
+import Iconteaserholder2 from "../components/Iconteaserholder2";
+import Popularlinks from "../components/Popularlinks";
+import Newsblockholder1 from "../components/Newsblockholder1";
+import Newsblockholder2 from "../components/Newsblockholder2";
+import Newsblockholder3 from "../components/Newsblockholder3";
+import Newsblockholder4 from "../components/Newsblockholder4";
 
 const Home = () =>
   <div>
@@ -43,6 +46,31 @@ const Home = () =>
         </div>
       </div>
       </section>
+      <section className="sectioned section-grey">
+        <div className="container">
+          <div className="row">
+
+            <Iconteaserholder1 />
+            <Iconteaserholder2 />
+            <Popularlinks />
+
+          </div>
+        </div>
+      </section>
+      <section className="sectioned section-white">
+        <div className="container">
+          <h2 className="m-t-0 m-b-3">News and Information</h2>
+          <div className="row">
+
+            <Newsblockholder1 />
+            <Newsblockholder2 />
+            <Newsblockholder3 />
+            <Newsblockholder4 />
+
+          </div>
+        </div>
+      </section>
+
       </div>;
 
 export default Home;
