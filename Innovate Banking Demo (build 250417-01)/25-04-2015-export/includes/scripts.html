@@ -1,0 +1,26 @@
+<!-- Bootstrap Core JS -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!-- 3rd Party Scripts -->
+<script type="text/javascript" src="https://use.fontawesome.com/ae44c022a3.js"></script>
+<script type="text/javascript" src="/static/js/custom/matchHeight.js"></script>
+<script type="text/javascript" src="/static/js/custom/dotdotdot.min.js"></script>
+
+<!-- Custom JS -->
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$("#navbar-toggler").click(function() {
+			$("#navbar-holder").toggleClass("active");
+		});
+
+		$(".learning-item .this-blurb .this-inner span").addClass("testing");
+
+		// BGN DotDotDot
+		// learning item
+		$(".learning-item .this-blurb .this-inner a").dotdotdot({
+			watch: true
+		});
+	});
+</script>

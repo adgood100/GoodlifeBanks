@@ -1,0 +1,6 @@
+Accounts.js - include Mongo/Mongoose - adg
+Application.js - include Form/Mongo/Mongoose rjk
+Home.js - Standard Home page - adg
+Learningoverview.js - Summary of Blogs - rjk
+Learningstory.js - Individual Blog Story - rjk
+Products.js - adg
