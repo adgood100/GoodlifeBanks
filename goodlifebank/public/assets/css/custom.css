@@ -222,6 +222,14 @@ th {
   h3 {
     page-break-after: avoid; }
 
+  .my-img-height {
+
+    -webkit-transform: translateX(-50%) translatey(-30%) scale(1);
+    -moz-transform: translateX(-50%) translatey(-30%) scale(1); 
+    -o-transform: translateX(-50%) translatey(-30%) scale(1); 
+    transform: translateX(-50%) translatey(-30%) scale(1);
+  }
+
   .navbar {
     display: none; }
 

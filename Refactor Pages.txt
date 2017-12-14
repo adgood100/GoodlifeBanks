@@ -15,3 +15,25 @@ Jan 11th 2018 - Deliverable 3
  
 
 Jan 13th 2018 - Final Projects
+
+Heroku:
+
+PS C:\Users\agood\Documents\SMUCodeBC\GoodlifeBanks> heroku create
+
+Style for Productshero:
+ style={{"-webkit-transform: translateX(-50%) translatey(-30%) scale(1), -moz-transform: translateX(-50%) translatey(-30%) scale(1), -o-transform: translateX(-50%) translatey(-30%) scale(1), transform: translateX(-50%) translatey(-30%) scale(1)"}}
+Creating app... done, afternoon-ridge-45435
+https://afternoon-ridge-45435.herokuapp.com/ | https://git.heroku.com/afternoon-ridge-45435.git
+PS C:\Users\agood\Documents\SMUCodeBC\GoodlifeBanks>
+
+MongoDB:
+
+mongodb://root:root@ds013901.mlab.com:13901/innovatefinancial100 
+
+<button>
+<Link className="navbar-link" to="/account">
+<button className="btn btn-secondary" type="button"><i className="fa fa-search" aria-hidden="true"></i></button>
+Log In &nbsp; <i className="fas fa-lock" aria-hidden="true"></i>
+</Link>
+</button>
+
