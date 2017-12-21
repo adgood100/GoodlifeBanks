@@ -6,7 +6,7 @@ const Productcategory1 = () =>
 		<a href="#" className="d-block">
 			<div className="category-image">
 				<div className="img-holder m-x-auto">
-					<img className="img-item" src="assets/images/product-category-1.png"/>
+					<img className="img-item" src="assets/images/moregreen.png"/>
 				</div>
 			</div>
 			<div className="category-title">

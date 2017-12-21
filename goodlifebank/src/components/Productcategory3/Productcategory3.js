@@ -10,7 +10,7 @@ const Productcategory3 = () =>
 				</div>
 			</div>
 			<div className="category-title">
-				<span>Travel Rewards</span>
+				<span>Travel Reward</span>
 			</div>
 		</a>
 	</div>;

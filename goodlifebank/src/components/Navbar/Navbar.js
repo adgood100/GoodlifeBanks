@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ReactModal from "react-modal";
+import ReactDOM from "react-dom";
 
 const Navbar = () =>
 
@@ -32,7 +34,7 @@ const Navbar = () =>
 						</div>
 						<div id="navbar-upper-login" className="section-inline-block">
 							<div className="navbar-item" id="navbar-upper-button">
-								<button type="button" className="btn btn-sm navbar-link" data-toggle="modal" href="#signInModal">
+								<button type="button" id="main" className="btn btn-sm navbar-link">
 										Log In &nbsp; <i className="fas fa-lock" aria-hidden="true"></i>						
 								</button>
 							</div>

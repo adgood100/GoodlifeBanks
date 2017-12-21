@@ -1,4 +1,7 @@
 import React from "react";
+import ReactModal from "react-modal";
+import ReactDOM from "react-dom";
+// import jQuery from "jquery";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Account from "./pages/Account";
@@ -10,7 +13,8 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Homeadvertsfilter from "./components/Homeadvertsfilter";
 import Footer from "./components/Footer";
-import Signinmodal from "./components/Signinmodal";
+//import Signinmodal from "./components/Signinmodal";
+
 
 const App = () =>
   <Router>
@@ -23,8 +27,10 @@ const App = () =>
         <Route exact path="/products" component={Products} />
 
       <Footer />
-      <Signinmodal />
+      
+
     </div>
+
   </Router>;
 
 export default App;
